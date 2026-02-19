@@ -16,7 +16,8 @@ namespace TchapsTech.Unitests.Calculator.Tests
             int y = 2;
             var calculator = new Calculator();
 
-            // Act
+
+            // Act on calculation
             var result = calculator.Add(x, y);
 
             // Assert
